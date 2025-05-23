@@ -1,0 +1,17 @@
+{
+  "name": "pendant",
+  "version": "0.1.0",
+  "description": "CLI interface for portable Linux SBC using Ink",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "pendant": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "ink": "^3.0.8",
+    "react": "^18.2.0"
+  }
+}
